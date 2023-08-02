@@ -1,0 +1,219 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100&family=Lobster&family=Pangolin&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.section1{
+    background: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100%;
+    min-width: 580px;
+/* background-attachment: fixed; */
+}
+.heading1{
+    margin: 0px auto;
+    max-width: 900px;
+    padding-left: 270px;
+    padding-top: 70px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.7rem;
+}
+.heading1 span{
+    font-size: 2rem;
+}
+h1{
+    color: white;
+}
+.heading2{
+    margin: 0px auto;
+    max-width: 900px;
+    padding-left: 250px;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+}
+h2{
+    color: white;
+}
+.section2{
+    background-color: black;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2 h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 30px;
+    
+}
+.section2 span{
+    font-size: 4.5rem;
+    padding-left: 5px;
+}
+.section3{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin: 30px;
+    border: 1px solid rgb(142, 255, 255);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 255, 227);
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    box-shadow: 4px 4px 4px rgb(79, 55, 55);
+}
+.box h3{
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+.box:hover{
+    transform: scale(1.03);
+    transition: 0.4s ease-in-out;
+}
+.box p{
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.box img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+.section4{
+    border: 2px solid green;
+}
+.container{
+    display: flex;
+
+}
+.contact{
+    background-color: brown;
+}
+.about{
+    background-color: rgb(88, 4, 4);
+}
+h4{
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+   margin: 20px 170px;
+   color: white;
+}
+.about p{
+    color: white;
+    padding:  10PX 50px;
+}
+.contact p{
+    color: white;
+    padding: 10px 50px;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5{
+    color: white;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+}
+@media (max-width: 786px){
+    .section1{
+        min-width: 90%;
+    }
+    .heading1{
+        font-size: 1.1rem;
+        padding-left: 20px;
+    }
+    .heading1 span{
+        font-size: 0.9rem;
+    }
+    .heading2{
+        font-size: 1.2rem;
+        padding-left:20px;
+    }
+    .container{
+       flex-wrap: wrap;
+    }
+  .heading h1 {
+        font-size: 1.3rem;
+
+    }
+    .heading h1 span{
+        font-size: 2.5rem;
+    }
+    .section2{
+        width: 100%;
+    }
+}
+/* @media (max-width: 450px){
+    .section1{
+        min-width: 90%;
+    }
+    .heading1{
+        font-size: 0.7rem;
+        padding-left: 20px;
+    }
+    .heading1 span{
+        font-size: 0.5rem;
+    }
+    .heading2{
+        font-size: 0.7rem;
+        padding-left:20px;
+    }
+    .container{
+       flex-wrap: wrap;
+    }
+  .heading h1 {
+        font-size: 0.7rem;
+
+    }
+    .heading h1 span{
+        font-size: 1.7rem;
+    }
+    .section2{
+        width: 100%;
+    }
+    .contact h4{
+        font-size: 1rem;
+    }
+} */
+@media (max-width: 510px){
+    .contact h4{
+        font-size: 1.9rem;
+    }
+    .contact p{
+        font-size: 1rem;
+    }
+    .about h4{
+        font-size: 1.9rem;
+    }
+    .contact{
+        height: 100%;
+        width: 100%;
+    }
+    .about{
+        height: 100%;
+        width: 100%;
+    }
+}
